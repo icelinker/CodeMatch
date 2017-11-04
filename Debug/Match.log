@@ -1,0 +1,42 @@
+﻿Build started 2017/11/4 18:51:05.
+     1>Project "E:\GitHub\CodeMatch\Match.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\Match.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\Match.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DIBAPI.CPP MainFrm.cpp Match.cpp MatchDoc.cpp MatchView.cpp
+         MatchView.cpp
+     1>e:\github\codematch\mydiblib.h(68): error C2556: 'int round(double)' : overloaded function differs only by return type from 'double round(double)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see declaration of 'round'
+     1>e:\github\codematch\mydiblib.h(68): error C2371: 'round' : redefinition; different basic types
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see declaration of 'round'
+     1>e:\github\codematch\mydiblib.h(482): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\github\codematch\mydiblib.h(483): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\github\codematch\mydiblib.h(792): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(794): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(795): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(836): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(838): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(839): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(873): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(875): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(876): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(916): error C2264: 'round' : error in function definition or declaration; function not called
+     1>e:\github\codematch\mydiblib.h(1045): error C2556: 'int round(double)' : overloaded function differs only by return type from 'double round(double)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(516) : see declaration of 'round'
+     1>e:\github\codematch\mydiblib.h(1045): error C2491: 'round' : definition of dllimport function not allowed
+         MatchDoc.cpp
+         Match.cpp
+     1>e:\github\codematch\match.cpp(60): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(5178) : see declaration of 'CWinApp::Enable3dControls'
+         MainFrm.cpp
+         DIBAPI.CPP
+     1>e:\github\codematch\dibapi.cpp(524): warning C4244: '=' : conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+         Generating Code...
+     1>Done Building Project "E:\GitHub\CodeMatch\Match.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.66
